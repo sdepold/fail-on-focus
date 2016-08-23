@@ -1,6 +1,6 @@
 {
   "name": "focus-check",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tool that searches for focussed tests in the provided files.",
   "main": "index.js",
   "scripts": {
