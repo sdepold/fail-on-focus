@@ -9,7 +9,7 @@
   "author": "Sascha Depold <sascha@depold.com>",
   "license": "MIT",
   "bin": {
-    "focus-check": "./bin/focus-check.sh"
+    "focus-check": "./bin/focus-check.js"
   },
   "engines": {
     "node": ">=0.11.12"
