@@ -10,5 +10,8 @@
   "license": "MIT",
   "bin": {
     "focus-check": "./bin/focus-check.sh"
+  },
+  "engines": {
+    "node": ">=0.11.12"
   }
 }
