@@ -9,7 +9,7 @@ var containedFocus = paths.map(function (path) {
 });
 
 if (containedFocus.indexOf(true) > -1) {
-  console.error('Some of the files contained a focussed test!')
+  console.error('\nSome of the files contained a focussed test!');
   process.exit(1);
 }
 
@@ -27,7 +27,7 @@ function checkFocusRocket (path) {
 
 function runCheck(cmd) {
   try {
-    var error = execSync(cmd).toString()
+    var error = execSync(cmd).toString().trim();
 
     console.error(error);
 
