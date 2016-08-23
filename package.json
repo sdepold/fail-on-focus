@@ -1,0 +1,14 @@
+{
+  "name": "focus-check",
+  "version": "1.0.0",
+  "description": "Tool that searches for focussed tests in the provided files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test/test.sh"
+  },
+  "author": "Sascha Depold <sascha@depold.com>",
+  "license": "MIT",
+  "bin": {
+    "focus-check": "./bin/focus-check.sh"
+  }
+}
