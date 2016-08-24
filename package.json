@@ -1,6 +1,6 @@
 {
   "name": "fail-on-focus",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Tool that searches for focussed tests in the provided files and fails on find.",
   "main": "index.js",
   "scripts": {
